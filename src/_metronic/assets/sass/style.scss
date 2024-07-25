@@ -1,0 +1,105 @@
+//
+// Theme style
+//
+
+// Initialize
+@import "init";
+
+// Components
+@import "./core/components/components";
+@import "components/components";
+
+// Layout
+@import "./core/layout/base/layout";
+@import "layout/layout";
+
+
+/* styles.css */
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.w-100 {
+  width: 100%;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.fw-bolder {
+  font-weight: bolder;
+}
+.me-3 {
+  margin-right: 1rem;
+}
+.me-2 {
+  margin-right: 0.5rem;
+}
+.me-1 {
+  margin-right: 0.25rem;
+}
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.bg-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-light {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  color: #212529;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-link {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #007bff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+
